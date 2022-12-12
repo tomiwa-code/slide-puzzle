@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created slide puzzle game" />
+    <title>Slide puzzle</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <!-- header  -->
+      <div class="header">
+        <h1>Slide puzzle</h1>
+        <div class="buttons">
+          <button class="active">3 x 3</button>
+          <button>4 x 4</button>
+          <button>5 x 5</button>
+        </div>
+      </div>
+
+      <!-- Select  -->
+      <div class="select-container">
+        <h3>Select an image!</h3>
+        <div class="images">
+          <div class="img" id="1">
+            <img src="images/Naruto.png" alt="Naruto" />
+          </div>
+          <div class="img" id="2">
+            <img src="images/Boruto.png" alt="Boruto" />
+          </div>
+        </div>
+      </div>
+
+      <!-- game  -->
+      <div class="game">
+        <div class="game-container">
+          <div class="game-board">
+            <div class="board"></div>
+          </div>
+          <button class="start">Start</button>
+          <button class="restart">Restart</button>
+        </div>
+        <div class="imgSample"></div>
+      </div>
+
+      <!-- congrats  -->
+      <div class="congrats">
+        <div class="img">
+          <h1>congratulations</h1>
+          <img src="./images/congratulations-congrats.gif" alt="congrats" />
+          <p>Game will restart in <span>5s</span></p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
