@@ -7,5 +7,8 @@ Slide puzzle game is a game where an image is shared into pieces and shuffled yo
 * **Html**
 * **Css**
 
+### NOTE ###
+It's not responsive (yet)
+
 ***LINK***
-https://slidepuzzle-tomiwa.netlify.app/
+* https://slidepuzzle-tomiwa.netlify.app/
